@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from './Slider'
 import Card from './Card'
+import Banner from './Banner'
 
 const Display = () => {
   return (
@@ -11,6 +12,9 @@ const Display = () => {
     </div>
     <div className='mt-10 flex flex-wrap items-center justify-center'>
         <Card/>
+      <Banner/>
+    </div>
+    <div>
     </div>
 
     </>
